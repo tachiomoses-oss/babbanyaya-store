@@ -1,0 +1,2346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BabbanYaya Store — Premium African-Inspired Fashion</title>
+  <meta name="description" content="Discover premium African-inspired fashion for every occasion. Ankara, Kente, Dashiki & more — handcrafted with cultural heritage." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================================================
+       HEADER / NAV
+  ========================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo-link">
+        <span class="logo-name">BabbanYaya</span>
+        <span class="logo-sub">Store</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#shop" class="nav-link">Shop</a>
+        <a href="#about" class="nav-link">About</a>
+        <button class="nav-cart-btn" id="cart-toggle" aria-label="Open cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          Cart
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       HERO SECTION
+  ========================================================= -->
+  <section class="hero" id="home">
+    <!-- Decorative geometric SVG pattern -->
+    <div class="hero-pattern" aria-hidden="true">
+      <svg class="hero-geo" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Large diamond shapes -->
+        <polygon points="400,30 470,100 400,170 330,100" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+        <polygon points="400,60 440,100 400,140 360,100" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+        <!-- Corner motifs -->
+        <polygon points="0,0 80,0 0,80" fill="rgba(255,255,255,0.06)"/>
+        <polygon points="800,0 720,0 800,80" fill="rgba(255,255,255,0.06)"/>
+        <polygon points="0,600 80,600 0,520" fill="rgba(255,255,255,0.06)"/>
+        <polygon points="800,600 720,600 800,520" fill="rgba(255,255,255,0.06)"/>
+        <!-- Horizontal stripes -->
+        <rect x="0" y="280" width="800" height="3" fill="rgba(255,255,255,0.06)" rx="2"/>
+        <rect x="0" y="320" width="800" height="1.5" fill="rgba(255,255,255,0.04)" rx="1"/>
+        <!-- Circles -->
+        <circle cx="100" cy="150" r="60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+        <circle cx="100" cy="150" r="30" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+        <circle cx="700" cy="450" r="80" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+        <circle cx="700" cy="450" r="40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+        <!-- Zigzag line -->
+        <polyline points="0,500 40,480 80,500 120,480 160,500 200,480 240,500 280,480 320,500 360,480 400,500 440,480 480,500 520,480 560,500 600,480 640,500 680,480 720,500 760,480 800,500" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+        <!-- Adinkra-inspired cross motif center -->
+        <line x1="380" y1="270" x2="420" y2="270" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <line x1="400" y1="250" x2="400" y2="290" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <circle cx="400" cy="270" r="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <!-- Scattered dots -->
+        <circle cx="200" cy="400" r="4" fill="rgba(255,255,255,0.10)"/>
+        <circle cx="600" cy="180" r="4" fill="rgba(255,255,255,0.10)"/>
+        <circle cx="650" cy="300" r="3" fill="rgba(255,255,255,0.08)"/>
+        <circle cx="150" cy="300" r="3" fill="rgba(255,255,255,0.08)"/>
+        <circle cx="500" cy="100" r="5" fill="rgba(255,255,255,0.08)"/>
+        <circle cx="300" cy="500" r="5" fill="rgba(255,255,255,0.08)"/>
+        <!-- Diamond row -->
+        <polygon points="200,200 220,220 200,240 180,220" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1.5"/>
+        <polygon points="600,350 620,370 600,390 580,370" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1.5"/>
+        <!-- Bottom kente-like stripes -->
+        <rect x="0" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="80" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="160" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="240" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="320" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="400" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="480" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="560" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="640" y="580" width="60" height="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="720" y="580" width="80" height="20" fill="rgba(255,255,255,0.05)"/>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">New Collection 2025</div>
+      <h1 class="hero-headline">Dress With<br/><em>Elegance</em></h1>
+      <p class="hero-sub">Premium English &amp; African-inspired fashion — casual, corporate &amp; everything in between.<br/>Where luxury meets contemporary style.</p>
+      <div class="hero-ctas">
+        <a href="#shop" class="btn-hero-primary">Shop Now</a>
+        <a href="#about" class="btn-hero-outline">Our Story</a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge">✦ Free Shipping Over ₦150,000</span>
+        <span class="hero-badge">✦ Ethically Made</span>
+        <span class="hero-badge">✦ 30-Day Returns</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CATEGORIES FILTER BAR
+  ========================================================= -->
+  <section class="categories-bar" id="shop">
+    <div class="container">
+      <div class="cat-label">Browse by</div>
+      <div class="cat-pills">
+        <button class="cat-pill active" data-filter="all">All</button>
+        <button class="cat-pill" data-filter="men">Men</button>
+        <button class="cat-pill" data-filter="women">Women</button>
+        <button class="cat-pill" data-filter="kids">Kids</button>
+        <button class="cat-pill" data-filter="casual">Casual Wear</button>
+        <button class="cat-pill" data-filter="corporate">Corporate Wear</button>
+        <button class="cat-pill" data-filter="footwear">Footwear</button>
+        <button class="cat-pill" data-filter="accessories">Accessories</button>
+        <button class="cat-pill" data-filter="jewellery">Jewellery</button>
+        <button class="cat-pill" data-filter="kitchen">Kitchen</button>
+        <button class="cat-pill" data-filter="perfume">Perfume</button>
+        <button class="cat-pill" data-filter="skincare">Skincare</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PRODUCT GRID
+  ========================================================= -->
+  <section class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-sub">Handcrafted with love, designed for the world</p>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+
+        <!-- WOMEN -->
+        <article class="product-card" data-category="women" data-id="1">
+          <div class="product-image" style="background: linear-gradient(135deg, #C0392B 0%, #F39C12 60%, #8B1A1A 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 10 C20 10 10 20 5 30 L18 35 L18 90 L62 90 L62 35 L75 30 C70 20 60 10 60 10 L48 18 C45 8 35 8 32 18 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M30 18 Q40 26 50 18" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none"/>
+              <rect x="25" y="50" width="30" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="22" y="60" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="22" y="70" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+            </svg>
+            <span class="product-badge badge-women">Women</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Ankara Wrap Dress</h3>
+            <div class="product-price">₦149,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #C0392B, #F39C12);" data-color="Red & Gold" title="Red & Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #1A5276, #FDFEFE);" data-color="Blue & White" title="Blue & White"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #1E8449, #F39C12);" data-color="Green & Gold" title="Green & Gold"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="XS">XS</button>
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="1" data-name="Ankara Wrap Dress" data-price="149999" data-category="women">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="women" data-id="2">
+          <div class="product-image" style="background: linear-gradient(135deg, #D4AC0D 0%, #1A1A2E 60%, #7D3C98 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 10 L65 10 L72 30 L60 30 L60 92 L20 92 L20 30 L8 30 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="20" y="45" width="40" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="20" y="58" width="40" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="20" y="68" width="40" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="20" y="78" width="40" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-women">Women</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Kente Maxi Skirt</h3>
+            <div class="product-price">₦107,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #D4AC0D, #1A1A2E);" data-color="Yellow & Black" title="Yellow & Black"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #7D3C98, #D4AC0D);" data-color="Purple & Gold" title="Purple & Gold"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="2" data-name="Kente Maxi Skirt" data-price="107999" data-category="women">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="women" data-id="3">
+          <div class="product-image" style="background: linear-gradient(135deg, #E67E22 0%, #784212 60%, #F8C471 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 72 L62 72 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M30 16 Q40 24 50 16" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none"/>
+              <rect x="25" y="40" width="30" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="22" y="52" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-women">Women</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Dashiki Blouse</h3>
+            <div class="product-price">₦82,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #E67E22, #784212);" data-color="Orange & Brown" title="Orange & Brown"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #EC407A, #FAFAFA);" data-color="Pink & White" title="Pink & White"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="XS">XS</button>
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="3" data-name="Dashiki Blouse" data-price="82999" data-category="women">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="women" data-id="4">
+          <div class="product-image" style="background: linear-gradient(135deg, #1565C0 0%, #0A2744 65%, #1565C0 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 15 C10 15 5 25 5 35 L20 35 L20 92 L60 92 L60 35 L75 35 C75 25 70 15 70 15 L55 20 C50 12 30 12 25 20 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M28 20 Q40 30 52 20" stroke="rgba(255,255,255,0.35)" stroke-width="2" fill="none"/>
+              <path d="M25 35 Q40 45 55 35" stroke="rgba(255,255,255,0.20)" stroke-width="1.5" fill="none"/>
+              <rect x="30" y="55" width="20" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="28" y="68" width="24" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="28" y="78" width="24" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+            </svg>
+            <span class="product-badge badge-women">Women</span>
+            <div class="product-tag">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Embroidered Kaftan</h3>
+            <div class="product-price">₦214,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: #1565C0;" data-color="Royal Blue" title="Royal Blue"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #FFFFF0, #E8E0D0);" data-color="Ivory White" title="Ivory White"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="4" data-name="Embroidered Kaftan" data-price="214999" data-category="women">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="women" data-id="5">
+          <div class="product-image" style="background: linear-gradient(135deg, #00897B 0%, #E67E22 60%, #004D40 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 55 L30 55 L30 92 L50 92 L50 55 L62 55 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="28" y="45" width="24" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="30" y="65" width="20" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+            </svg>
+            <span class="product-badge badge-women">Women</span>
+            <div class="product-tag">New</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Wax Print Jumpsuit</h3>
+            <div class="product-price">₦164,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #00897B, #E67E22);" data-color="Teal & Orange" title="Teal & Orange"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #1A1A1A, #C8893A);" data-color="Black & Gold" title="Black & Gold"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="XS">XS</button>
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="5" data-name="Wax Print Jumpsuit" data-price="164999" data-category="women">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- MEN -->
+        <article class="product-card" data-category="men" data-id="6">
+          <div class="product-image" style="background: linear-gradient(135deg, #F5F5F5 0%, #B8C4C8 50%, #FFFFF0 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 8 L70 8 L78 28 L62 28 L62 92 L18 92 L18 28 L2 28 Z" fill="rgba(100,80,60,0.15)" stroke="rgba(100,80,60,0.40)" stroke-width="2"/>
+              <rect x="35" y="8" width="10" height="20" rx="5" fill="rgba(100,80,60,0.12)" stroke="rgba(100,80,60,0.30)" stroke-width="1.5"/>
+              <rect x="18" y="45" width="44" height="2" rx="1" fill="rgba(100,80,60,0.20)"/>
+              <rect x="18" y="58" width="44" height="1.5" rx="1" fill="rgba(100,80,60,0.15)"/>
+            </svg>
+            <span class="product-badge badge-men">Men</span>
+            <div class="product-tag">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Agbada Senator Set</h3>
+            <div class="product-price">₦249,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: #FFFFFF; border: 1.5px solid #ccc;" data-color="White" title="White"></button>
+              <button class="color-swatch" style="background: #F5F5DC;" data-color="Cream" title="Cream"></button>
+              <button class="color-swatch" style="background: #1B3A6B;" data-color="Navy" title="Navy"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="6" data-name="Agbada Senator Set" data-price="249999" data-category="men">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="men" data-id="7">
+          <div class="product-image" style="background: linear-gradient(135deg, #784212 0%, #C8893A 50%, #1B4F72 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 60 L62 60 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="18" y="60" width="44" height="30" rx="2" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <rect x="28" y="45" width="24" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+            </svg>
+            <span class="product-badge badge-men">Men</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Dashiki Short Set</h3>
+            <div class="product-price">₦132,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #784212, #C8893A);" data-color="Brown & Gold" title="Brown & Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #1B4F72, #FAFAFA);" data-color="Blue & White" title="Blue & White"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="7" data-name="Dashiki Short Set" data-price="132999" data-category="men">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="men" data-id="8">
+          <div class="product-image" style="background: linear-gradient(135deg, #922B21 0%, #1C1C1C 60%, #145A32 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 80 L62 80 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M30 16 Q40 24 50 16" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none"/>
+              <line x1="40" y1="16" x2="40" y2="55" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+              <rect x="26" y="45" width="28" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="24" y="58" width="32" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-men">Men</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Ankara Shirt</h3>
+            <div class="product-price">₦90,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #922B21, #1C1C1C);" data-color="Red & Black" title="Red & Black"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #145A32, #FAFAFA);" data-color="Green & White" title="Green & White"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #6C3483, #D4AC0D);" data-color="Purple & Gold" title="Purple & Gold"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="8" data-name="Ankara Shirt" data-price="90999" data-category="men">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="men" data-id="9">
+          <div class="product-image" style="background: linear-gradient(135deg, #D4AC0D 0%, #1A1A1A 55%, #C0392B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 10 L65 10 L72 30 L60 30 L60 65 L20 65 L20 30 L8 30 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="20" y="42" width="40" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="20" y="54" width="40" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-men">Men</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Kente Shorts</h3>
+            <div class="product-price">₦74,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #D4AC0D, #1A1A1A);" data-color="Yellow & Black" title="Yellow & Black"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #C0392B, #D4AC0D);" data-color="Red & Gold" title="Red & Gold"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="9" data-name="Kente Shorts" data-price="74999" data-category="men">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="men" data-id="10">
+          <div class="product-image" style="background: linear-gradient(135deg, #1565C0 0%, #0A2744 60%, #0D7A3B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 15 C10 15 5 25 5 35 L20 35 L20 92 L60 92 L60 35 L75 35 C75 25 70 15 70 15 L55 20 C50 12 30 12 25 20 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M28 20 Q40 30 52 20" stroke="rgba(255,255,255,0.35)" stroke-width="2" fill="none"/>
+              <rect x="28" y="55" width="24" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="28" y="68" width="24" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="28" y="78" width="24" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+            </svg>
+            <span class="product-badge badge-men">Men</span>
+            <div class="product-tag">Luxury</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Boubou Grand Robe</h3>
+            <div class="product-price">₦279,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: #87CEEB;" data-color="Sky Blue" title="Sky Blue"></button>
+              <button class="color-swatch" style="background: #228B22;" data-color="Forest Green" title="Forest Green"></button>
+              <button class="color-swatch" style="background: #800020;" data-color="Burgundy" title="Burgundy"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="10" data-name="Boubou Grand Robe" data-price="279999" data-category="men">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- KIDS -->
+        <article class="product-card" data-category="kids" data-id="11">
+          <div class="product-image" style="background: linear-gradient(135deg, #F48FB1 0%, #C8893A 55%, #A5D6A7 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 70 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 8 C18 8 10 16 6 24 L16 28 L16 78 L54 78 L54 28 L64 24 C60 16 52 8 52 8 L42 14 C40 6 30 6 28 14 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M28 14 Q35 20 42 14" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none"/>
+              <rect x="22" y="42" width="26" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="20" y="54" width="30" height="1.5" rx="1" fill="rgba(255,255,255,0.20)"/>
+            </svg>
+            <span class="product-badge badge-kids">Kids</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Mini Ankara Dress</h3>
+            <div class="product-price">₦57,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #F48FB1, #C8893A);" data-color="Pink & Gold" title="Pink & Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #FFEB3B, #66BB6A);" data-color="Yellow & Green" title="Yellow & Green"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="2T">2T</button>
+                <button class="size-pill" data-size="3T">3T</button>
+                <button class="size-pill" data-size="4T">4T</button>
+                <button class="size-pill" data-size="5T">5T</button>
+                <button class="size-pill" data-size="6">6</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="11" data-name="Mini Ankara Dress" data-price="57999" data-category="kids">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="kids" data-id="12">
+          <div class="product-image" style="background: linear-gradient(135deg, #FF8A65 0%, #FAFAFA 50%, #42A5F5 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 70 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 8 C18 8 10 16 6 24 L16 28 L16 65 L54 65 L54 28 L64 24 C60 16 52 8 52 8 L42 14 C40 6 30 6 28 14 Z" fill="rgba(100,60,20,0.15)" stroke="rgba(100,60,20,0.35)" stroke-width="2"/>
+              <rect x="22" y="40" width="26" height="2" rx="1" fill="rgba(100,60,20,0.20)"/>
+            </svg>
+            <span class="product-badge badge-kids">Kids</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Kids Dashiki Shirt</h3>
+            <div class="product-price">₦41,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #FF8A65, #FAFAFA);" data-color="Orange & White" title="Orange & White"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #42A5F5, #C8893A);" data-color="Blue & Gold" title="Blue & Gold"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="2T">2T</button>
+                <button class="size-pill" data-size="3T">3T</button>
+                <button class="size-pill" data-size="4T">4T</button>
+                <button class="size-pill" data-size="5T">5T</button>
+                <button class="size-pill" data-size="6">6</button>
+                <button class="size-pill" data-size="8">8</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="12" data-name="Kids Dashiki Shirt" data-price="41999" data-category="kids">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- CASUAL WEAR -->
+        <article class="product-card" data-category="casual" data-id="38">
+          <div class="product-image" style="background: linear-gradient(135deg, #2C3E50 0%, #3498DB 60%, #1A252F 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 80 L62 80 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M30 16 Q40 24 50 16" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none"/>
+              <rect x="25" y="40" width="30" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="22" y="52" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="22" y="62" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-casual">Casual</span>
+            <div class="product-tag">New</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Premium Polo Shirt</h3>
+            <div class="product-price">₦35,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#2C3E50;" data-color="Navy" title="Navy"></button>
+              <button class="color-swatch" style="background:#FFFFFF; border:1.5px solid #ccc;" data-color="White" title="White"></button>
+              <button class="color-swatch" style="background:#C0392B;" data-color="Burgundy" title="Burgundy"></button>
+              <button class="color-swatch" style="background:#27AE60;" data-color="Forest Green" title="Forest Green"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="38" data-name="Premium Polo Shirt" data-price="35000" data-category="casual">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="casual" data-id="39">
+          <div class="product-image" style="background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #E74C3C 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 80 L62 80 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="38" y="16" width="4" height="18" rx="1" fill="rgba(255,255,255,0.30)"/>
+              <rect x="30" y="20" width="20" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="30" y="26" width="20" height="2" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="25" y="42" width="30" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="22" y="54" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-casual">Casual</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Slim Fit Chinos</h3>
+            <div class="product-price">₦48,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#D2B48C;" data-color="Khaki" title="Khaki"></button>
+              <button class="color-swatch" style="background:#1A1A2E;" data-color="Navy" title="Navy"></button>
+              <button class="color-swatch" style="background:#808080;" data-color="Grey" title="Grey"></button>
+              <button class="color-swatch" style="background:#F5F5DC; border:1.5px solid #ccc;" data-color="Beige" title="Beige"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="28">28</button>
+                <button class="size-pill" data-size="30">30</button>
+                <button class="size-pill" data-size="32">32</button>
+                <button class="size-pill" data-size="34">34</button>
+                <button class="size-pill" data-size="36">36</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="39" data-name="Slim Fit Chinos" data-price="48000" data-category="casual">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="casual" data-id="40">
+          <div class="product-image" style="background: linear-gradient(135deg, #6C3483 0%, #A569BD 50%, #1A1A2E 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 12 L65 12 L68 30 L58 30 L58 88 L22 88 L22 30 L12 30 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M30 12 Q40 22 50 12" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none"/>
+              <rect x="22" y="42" width="36" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="22" y="54" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="22" y="64" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-casual">Casual</span>
+            <div class="product-tag">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Linen Maxi Dress</h3>
+            <div class="product-price">₦72,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#6C3483,#A569BD);" data-color="Lavender" title="Lavender"></button>
+              <button class="color-swatch" style="background:#FFFFF0; border:1.5px solid #ccc;" data-color="Ivory" title="Ivory"></button>
+              <button class="color-swatch" style="background:#E74C3C;" data-color="Coral Red" title="Coral Red"></button>
+              <button class="color-swatch" style="background:#1A8449;" data-color="Emerald" title="Emerald"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="XS">XS</button>
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="40" data-name="Linen Maxi Dress" data-price="72000" data-category="casual">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="casual" data-id="41">
+          <div class="product-image" style="background: linear-gradient(135deg, #1C1C1C 0%, #4A4A4A 50%, #2C3E50 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 80 L62 80 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <circle cx="40" cy="20" r="4" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <rect x="25" y="42" width="30" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="22" y="54" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-casual">Casual</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Graphic Tee &amp; Jogger Set</h3>
+            <div class="product-price">₦55,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1C1C1C;" data-color="All Black" title="All Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#808080,#C0C0C0);" data-color="Grey" title="Grey"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#2C3E50,#3498DB);" data-color="Navy Blue" title="Navy Blue"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="41" data-name="Graphic Tee & Jogger Set" data-price="55000" data-category="casual">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="casual" data-id="42">
+          <div class="product-image" style="background: linear-gradient(135deg, #F39C12 0%, #E67E22 50%, #1A1A1A 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 20 L70 20 L70 85 L10 85 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.38)" stroke-width="2"/>
+              <path d="M10 20 L10 8 L28 8 L28 20" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M52 20 L52 8 L70 8 L70 20" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="18" y="38" width="44" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="18" y="50" width="44" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="18" y="62" width="30" height="1.5" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-casual">Casual</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Denim Jacket</h3>
+            <div class="product-price">₦89,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#1A237E,#3949AB);" data-color="Classic Blue" title="Classic Blue"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#607D8B,#B0BEC5);" data-color="Light Wash" title="Light Wash"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="42" data-name="Denim Jacket" data-price="89000" data-category="casual">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- CORPORATE WEAR -->
+        <article class="product-card" data-category="corporate" data-id="43">
+          <div class="product-image" style="background: linear-gradient(135deg, #0D0D0D 0%, #1A1A2E 55%, #2C3E50 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 88 L62 88 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M32 16 L36 30 L40 24 L44 30 L48 16" stroke="rgba(255,255,255,0.40)" stroke-width="1.5" fill="none"/>
+              <line x1="40" y1="24" x2="40" y2="88" stroke="rgba(255,255,255,0.20)" stroke-width="1"/>
+              <rect x="26" y="44" width="12" height="3" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="26" y="52" width="12" height="3" rx="1" fill="rgba(255,255,255,0.15)"/>
+              <rect x="26" y="60" width="12" height="3" rx="1" fill="rgba(255,255,255,0.12)"/>
+            </svg>
+            <span class="product-badge badge-corp">Corporate</span>
+            <div class="product-tag">Luxury</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">3-Piece Suit</h3>
+            <div class="product-price">₦385,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#0D0D0D;" data-color="Charcoal Black" title="Charcoal Black"></button>
+              <button class="color-swatch" style="background:#2C3E50;" data-color="Navy" title="Navy"></button>
+              <button class="color-swatch" style="background:#808080;" data-color="Grey" title="Grey"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="43" data-name="3-Piece Suit" data-price="385000" data-category="corporate">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="corporate" data-id="44">
+          <div class="product-image" style="background: linear-gradient(135deg, #1A237E 0%, #283593 50%, #E8E8E8 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 82 L62 82 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M32 16 L36 28 L40 22 L44 28 L48 16" stroke="rgba(255,255,255,0.45)" stroke-width="1.5" fill="none"/>
+              <rect x="24" y="40" width="32" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="24" y="52" width="32" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="24" y="62" width="20" height="1.5" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-corp">Corporate</span>
+            <div class="product-tag">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Oxford Dress Shirt</h3>
+            <div class="product-price">₦65,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#FFFFFF; border:1.5px solid #ccc;" data-color="White" title="White"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#E8EAF6,#9FA8DA);" data-color="Light Blue" title="Light Blue"></button>
+              <button class="color-swatch" style="background:#F5F5DC; border:1.5px solid #ccc;" data-color="Cream" title="Cream"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#FCE4EC,#F48FB1);" data-color="Blush Pink" title="Blush Pink"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="44" data-name="Oxford Dress Shirt" data-price="65000" data-category="corporate">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="corporate" data-id="45">
+          <div class="product-image" style="background: linear-gradient(135deg, #880E4F 0%, #C2185B 50%, #1A1A2E 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 12 L65 12 L68 30 L58 30 L58 90 L22 90 L22 30 L12 30 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="35" y="12" width="10" height="18" rx="5" fill="rgba(255,255,255,0.22)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <rect x="22" y="48" width="36" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="22" y="60" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="22" y="70" width="22" height="1.5" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-corp">Corporate</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Women&#39;s Blazer</h3>
+            <div class="product-price">₦145,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#880E4F;" data-color="Magenta" title="Magenta"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:#F5F5DC; border:1.5px solid #ccc;" data-color="Cream" title="Cream"></button>
+              <button class="color-swatch" style="background:#2C3E50;" data-color="Navy" title="Navy"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="XS">XS</button>
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="45" data-name="Women's Blazer" data-price="145000" data-category="corporate">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="corporate" data-id="46">
+          <div class="product-image" style="background: linear-gradient(135deg, #263238 0%, #37474F 50%, #B8860B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 12 L65 12 L68 30 L58 30 L58 90 L22 90 L22 30 L12 30 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.38)" stroke-width="2"/>
+              <rect x="35" y="12" width="10" height="18" rx="5" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.38)" stroke-width="1.5"/>
+              <rect x="22" y="50" width="36" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="22" y="62" width="36" height="1.5" rx="1" fill="rgba(255,255,255,0.16)"/>
+            </svg>
+            <span class="product-badge badge-corp">Corporate</span>
+            <div class="product-tag">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Men&#39;s Blazer &amp; Trouser Set</h3>
+            <div class="product-price">₦220,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#263238;" data-color="Charcoal" title="Charcoal"></button>
+              <button class="color-swatch" style="background:#1A237E;" data-color="Navy" title="Navy"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#808080,#B0BEC5);" data-color="Steel Grey" title="Steel Grey"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#3E2723,#6D4C41);" data-color="Chocolate" title="Chocolate"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="46" data-name="Men's Blazer & Trouser Set" data-price="220000" data-category="corporate">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="corporate" data-id="47">
+          <div class="product-image" style="background: linear-gradient(135deg, #4A148C 0%, #6A1B9A 50%, #E1BEE7 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 10 L65 10 L72 30 L60 30 L60 92 L20 92 L20 30 L8 30 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="20" y="46" width="40" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="20" y="58" width="40" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="20" y="68" width="40" height="1.5" rx="1" fill="rgba(255,255,255,0.15)"/>
+              <rect x="20" y="78" width="28" height="1.5" rx="1" fill="rgba(255,255,255,0.12)"/>
+            </svg>
+            <span class="product-badge badge-corp">Corporate</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Pencil Skirt &amp; Blouse Set</h3>
+            <div class="product-price">₦118,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#4A148C;" data-color="Deep Plum" title="Deep Plum"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#880E4F,#E91E63);" data-color="Burgundy" title="Burgundy"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="XS">XS</button>
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="47" data-name="Pencil Skirt & Blouse Set" data-price="118000" data-category="corporate">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="corporate" data-id="48">
+          <div class="product-image" style="background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #E8F5E9 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8 C20 8 10 18 5 28 L18 33 L18 88 L62 88 L62 33 L75 28 C70 18 60 8 60 8 L48 16 C45 6 35 6 32 16 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M32 16 L36 28 L40 22 L44 28 L48 16" stroke="rgba(255,255,255,0.45)" stroke-width="1.5" fill="none"/>
+              <rect x="24" y="42" width="32" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="24" y="54" width="32" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-corp">Corporate</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Slim Fit Dress Shirt</h3>
+            <div class="product-price">₦58,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1B5E20;" data-color="Bottle Green" title="Bottle Green"></button>
+              <button class="color-swatch" style="background:#FFFFFF; border:1.5px solid #ccc;" data-color="White" title="White"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#B0BEC5,#E8EAF6);" data-color="Light Blue" title="Light Blue"></button>
+              <button class="color-swatch" style="background:#F5F5DC; border:1.5px solid #ccc;" data-color="Beige" title="Beige"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S">S</button>
+                <button class="size-pill" data-size="M">M</button>
+                <button class="size-pill" data-size="L">L</button>
+                <button class="size-pill" data-size="XL">XL</button>
+                <button class="size-pill" data-size="XXL">XXL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="48" data-name="Slim Fit Dress Shirt" data-price="58000" data-category="corporate">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- FOOTWEAR -->
+        <article class="product-card" data-category="footwear" data-id="49">
+          <div class="product-image" style="background: linear-gradient(135deg, #1A1A1A 0%, #4A4A4A 50%, #B8860B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 45 Q15 20 40 18 Q65 16 80 28 L88 45 Q70 55 10 50 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M10 50 L88 45 L90 52 Q50 62 8 56 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <path d="M30 18 Q35 10 50 10 Q65 10 70 18" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <line x1="35" y1="30" x2="70" y2="27" stroke="rgba(255,255,255,0.25)" stroke-width="1" stroke-dasharray="3,3"/>
+              <line x1="33" y1="36" x2="72" y2="33" stroke="rgba(255,255,255,0.20)" stroke-width="1" stroke-dasharray="3,3"/>
+            </svg>
+            <span class="product-badge badge-shoe">Footwear</span>
+            <div class="product-tag">Luxury</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Leather Oxford Shoes</h3>
+            <div class="product-price">₦195,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#5D3A1A,#8B4513);" data-color="Cognac Brown" title="Cognac Brown"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#B8860B,#DAA520);" data-color="Tan Gold" title="Tan Gold"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="39">39</button>
+                <button class="size-pill" data-size="40">40</button>
+                <button class="size-pill" data-size="41">41</button>
+                <button class="size-pill" data-size="42">42</button>
+                <button class="size-pill" data-size="43">43</button>
+                <button class="size-pill" data-size="44">44</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="49" data-name="Leather Oxford Shoes" data-price="195000" data-category="footwear">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="footwear" data-id="50">
+          <div class="product-image" style="background: linear-gradient(135deg, #880E4F 0%, #E91E63 50%, #FCE4EC 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 52 Q10 35 30 28 Q50 22 75 32 L82 45" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M8 52 L82 45 L84 54 Q45 65 6 58 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <line x1="75" y1="32" x2="78" y2="12" stroke="rgba(255,255,255,0.50)" stroke-width="3" stroke-linecap="round"/>
+              <ellipse cx="78" cy="10" rx="4" ry="3" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <path d="M25 36 Q40 30 60 33" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-shoe">Footwear</span>
+            <div class="product-tag">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Stiletto Heels</h3>
+            <div class="product-price">₦135,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#880E4F;" data-color="Berry Red" title="Berry Red"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#F5F5DC,#E8D5B0);" data-color="Nude" title="Nude"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#B8860B,#DAA520);" data-color="Gold" title="Gold"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="36">36</button>
+                <button class="size-pill" data-size="37">37</button>
+                <button class="size-pill" data-size="38">38</button>
+                <button class="size-pill" data-size="39">39</button>
+                <button class="size-pill" data-size="40">40</button>
+                <button class="size-pill" data-size="41">41</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="50" data-name="Stiletto Heels" data-price="135000" data-category="footwear">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="footwear" data-id="51">
+          <div class="product-image" style="background: linear-gradient(135deg, #0D47A1 0%, #1565C0 50%, #90CAF9 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 50 Q8 28 35 22 Q60 16 85 30 L90 50 Q50 62 5 55 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M5 55 L90 50 L92 57 Q48 68 4 60 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <path d="M20 35 L35 30 M40 28 L55 25 M60 24 L75 28" stroke="rgba(255,255,255,0.40)" stroke-width="2" stroke-linecap="round"/>
+              <path d="M28 40 Q47 33 68 36" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" fill="none"/>
+              <circle cx="15" cy="46" r="3" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.45)" stroke-width="1"/>
+              <circle cx="80" cy="42" r="3" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.45)" stroke-width="1"/>
+            </svg>
+            <span class="product-badge badge-shoe">Footwear</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Premium Sneakers</h3>
+            <div class="product-price">₦98,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#0D47A1,#90CAF9);" data-color="Blue & White" title="Blue & White"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="All Black" title="All Black"></button>
+              <button class="color-swatch" style="background:#FFFFFF; border:1.5px solid #ccc;" data-color="All White" title="All White"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#C0392B,#FFFFFF);" data-color="Red & White" title="Red & White"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="39">39</button>
+                <button class="size-pill" data-size="40">40</button>
+                <button class="size-pill" data-size="41">41</button>
+                <button class="size-pill" data-size="42">42</button>
+                <button class="size-pill" data-size="43">43</button>
+                <button class="size-pill" data-size="44">44</button>
+                <button class="size-pill" data-size="45">45</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="51" data-name="Premium Sneakers" data-price="98000" data-category="footwear">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="footwear" data-id="52">
+          <div class="product-image" style="background: linear-gradient(135deg, #3E2723 0%, #6D4C41 50%, #D7CCC8 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 48 Q12 28 38 22 Q64 16 82 32 L86 48 Q48 60 8 53 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M8 53 L86 48 L88 56 Q46 66 6 60 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <path d="M20 32 Q50 22 78 34" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <rect x="30" y="18" width="40" height="14" rx="5" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-shoe">Footwear</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Suede Loafers</h3>
+            <div class="product-price">₦118,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#3E2723,#6D4C41);" data-color="Chocolate Brown" title="Chocolate Brown"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#808080,#B0BEC5);" data-color="Grey" title="Grey"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="38">38</button>
+                <button class="size-pill" data-size="39">39</button>
+                <button class="size-pill" data-size="40">40</button>
+                <button class="size-pill" data-size="41">41</button>
+                <button class="size-pill" data-size="42">42</button>
+                <button class="size-pill" data-size="43">43</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="52" data-name="Suede Loafers" data-price="118000" data-category="footwear">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="footwear" data-id="53">
+          <div class="product-image" style="background: linear-gradient(135deg, #4A148C 0%, #7B1FA2 50%, #E1BEE7 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 50 Q12 32 32 26 Q52 20 78 32 L84 50 Q46 62 8 55 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M8 55 L84 50 L86 58 Q44 68 6 62 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <path d="M32 26 L34 12 L70 12 L74 28" fill="none" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <line x1="34" y1="12" x2="74" y2="12" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-shoe">Footwear</span>
+            <div class="product-tag">New</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Knee-High Boots</h3>
+            <div class="product-price">₦168,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#5D3A1A,#8B4513);" data-color="Cognac" title="Cognac"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#880E4F,#C2185B);" data-color="Berry" title="Berry"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="36">36</button>
+                <button class="size-pill" data-size="37">37</button>
+                <button class="size-pill" data-size="38">38</button>
+                <button class="size-pill" data-size="39">39</button>
+                <button class="size-pill" data-size="40">40</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="53" data-name="Knee-High Boots" data-price="168000" data-category="footwear">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="footwear" data-id="54">
+          <div class="product-image" style="background: linear-gradient(135deg, #B8860B 0%, #DAA520 50%, #5D3A1A 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 52 Q10 34 32 28 Q55 22 82 34 L88 52 Q46 64 6 57 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M6 57 L88 52 L90 59 Q46 70 5 63 Z" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <path d="M25 36 Q55 26 80 36" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <path d="M35 30 Q55 24 72 30" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-shoe">Footwear</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Leather Sandals</h3>
+            <div class="product-price">₦65,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#B8860B,#DAA520);" data-color="Gold Tan" title="Gold Tan"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#5D3A1A,#8B4513);" data-color="Brown" title="Brown"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="36">36</button>
+                <button class="size-pill" data-size="37">37</button>
+                <button class="size-pill" data-size="38">38</button>
+                <button class="size-pill" data-size="39">39</button>
+                <button class="size-pill" data-size="40">40</button>
+                <button class="size-pill" data-size="41">41</button>
+                <button class="size-pill" data-size="42">42</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="54" data-name="Leather Sandals" data-price="65000" data-category="footwear">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- ACCESSORIES -->
+        <article class="product-card" data-category="accessories" data-id="13">
+          <div class="product-image" style="background: linear-gradient(135deg, #1A1A1A 0%, #C8893A 55%, #5D4037 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="30" width="60" height="55" rx="4" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M25 30 L25 18 Q40 10 55 18 L55 30" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2.5"/>
+              <rect x="18" y="48" width="44" height="2" rx="1" fill="rgba(255,255,255,0.22)"/>
+              <rect x="18" y="60" width="44" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+              <rect x="18" y="70" width="30" height="1.5" rx="1" fill="rgba(255,255,255,0.18)"/>
+            </svg>
+            <span class="product-badge badge-acc">Accessories</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Kente Tote Bag</h3>
+            <div class="product-price">₦65,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #1A1A1A, #C8893A);" data-color="Black & Gold" title="Black & Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #5D4037, #E67E22);" data-color="Brown & Orange" title="Brown & Orange"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="One Size">One Size</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="13" data-name="Kente Tote Bag" data-price="65999" data-category="accessories">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="accessories" data-id="14">
+          <div class="product-image" style="background: linear-gradient(135deg, #E91E63 0%, #FF9800 40%, #4CAF50 70%, #2196F3 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="40" cy="32" rx="30" ry="18" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M12 32 Q16 55 40 58 Q64 55 68 32" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+              <ellipse cx="40" cy="30" rx="16" ry="10" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-acc">Accessories</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Ankara Head Wrap</h3>
+            <div class="product-price">₦32,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #E91E63, #FF9800);" data-color="Various prints" title="Various prints"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="One Size">One Size</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="14" data-name="Ankara Head Wrap" data-price="32999" data-category="accessories">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="accessories" data-id="15">
+          <div class="product-image" style="background: linear-gradient(135deg, #B8860B 0%, #DAA520 50%, #C0C0C0 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Necklace beads -->
+              <path d="M15 55 Q40 20 65 55" fill="none" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <circle cx="15" cy="55" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <circle cx="25" cy="40" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <circle cx="35" cy="30" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <circle cx="40" cy="28" r="5" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <circle cx="45" cy="30" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <circle cx="55" cy="40" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <circle cx="65" cy="55" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <!-- Pendant -->
+              <polygon points="40,60 34,72 46,72" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-acc">Accessories</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Beaded Necklace Set</h3>
+            <div class="product-price">₦49,999</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #B8860B, #DAA520);" data-color="Gold" title="Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #C0C0C0, #E8E8E8);" data-color="Silver" title="Silver"></button>
+              <button class="color-swatch" style="background: conic-gradient(#E91E63, #FF9800, #4CAF50, #2196F3, #E91E63);" data-color="Multicolor" title="Multicolor"></button>
+            </div>
+            <div class="product-sizes">
+              <span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="One Size">One Size</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="15" data-name="Beaded Necklace Set" data-price="49999" data-category="accessories">Add to Cart</button>
+          </div>
+        </article>
+
+
+        <!-- JEWELLERY -->
+        <article class="product-card" data-category="jewellery" data-id="16">
+          <div class="product-image" style="background: linear-gradient(135deg, #B8860B 0%, #FFD700 50%, #8B6914 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 55 Q40 20 65 55" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <circle cx="15" cy="55" r="5" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.60)" stroke-width="1.5"/>
+              <circle cx="25" cy="39" r="5" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.60)" stroke-width="1.5"/>
+              <circle cx="40" cy="28" r="6" fill="rgba(255,255,255,0.40)" stroke="rgba(255,255,255,0.65)" stroke-width="1.5"/>
+              <circle cx="55" cy="39" r="5" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.60)" stroke-width="1.5"/>
+              <circle cx="65" cy="55" r="5" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.60)" stroke-width="1.5"/>
+              <polygon points="40,60 34,74 46,74" fill="rgba(255,255,255,0.40)" stroke="rgba(255,255,255,0.65)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+            <div class="product-tag">New</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Gold Chain Necklace</h3>
+            <div class="product-price">₦55,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg, #B8860B, #FFD700);" data-color="Gold" title="Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #C0C0C0, #E8E8E8);" data-color="Silver" title="Silver"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills"><button class="size-pill" data-size="One Size">One Size</button></div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="16" data-name="Gold Chain Necklace" data-price="55000" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="17">
+          <div class="product-image" style="background: linear-gradient(135deg, #C0C0C0 0%, #E8E8E8 40%, #A8A8A8 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="28" cy="40" rx="12" ry="18" fill="rgba(80,80,80,0.15)" stroke="rgba(80,80,80,0.50)" stroke-width="2"/>
+              <ellipse cx="52" cy="40" rx="12" ry="18" fill="rgba(80,80,80,0.15)" stroke="rgba(80,80,80,0.50)" stroke-width="2"/>
+              <circle cx="28" cy="40" r="5" fill="rgba(80,80,80,0.25)" stroke="rgba(80,80,80,0.50)" stroke-width="1.5"/>
+              <circle cx="52" cy="40" r="5" fill="rgba(80,80,80,0.25)" stroke="rgba(80,80,80,0.50)" stroke-width="1.5"/>
+              <line x1="28" y1="22" x2="28" y2="14" stroke="rgba(80,80,80,0.50)" stroke-width="2"/>
+              <line x1="52" y1="22" x2="52" y2="14" stroke="rgba(80,80,80,0.50)" stroke-width="2"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Pearl Drop Earrings</h3>
+            <div class="product-price">₦28,500</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: #C0C0C0;" data-color="Silver" title="Silver"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #B8860B, #FFD700);" data-color="Gold" title="Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg, #FFB6C1, #FFF);" data-color="Rose Gold" title="Rose Gold"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills"><button class="size-pill" data-size="One Size">One Size</button></div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="17" data-name="Pearl Drop Earrings" data-price="28500" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="18">
+          <div class="product-image" style="background: linear-gradient(135deg, #2C1810 0%, #C8893A 55%, #1A1A1A 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="30" width="60" height="22" rx="11" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <circle cx="40" cy="41" r="7" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <rect x="22" y="36" width="6" height="10" rx="3" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="1"/>
+              <rect x="52" y="36" width="6" height="10" rx="3" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="1"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Beaded Waist Bracelet</h3>
+            <div class="product-price">₦18,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: conic-gradient(#E91E63,#FF9800,#4CAF50,#2196F3,#E91E63);" data-color="Multicolor" title="Multicolor"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#1A1A1A,#C8893A);" data-color="Black & Gold" title="Black & Gold"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="S/M">S/M</button>
+                <button class="size-pill" data-size="L/XL">L/XL</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="18" data-name="Beaded Waist Bracelet" data-price="18000" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="19">
+          <div class="product-image" style="background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="18" y="20" width="44" height="30" rx="4" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <rect x="22" y="24" width="36" height="22" rx="2" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+              <circle cx="40" cy="35" r="8" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <line x1="40" y1="29" x2="40" y2="35" stroke="rgba(255,255,255,0.60)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="40" y1="35" x2="45" y2="35" stroke="rgba(255,255,255,0.45)" stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="10" y="34" width="8" height="10" rx="2" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <rect x="62" y="34" width="8" height="10" rx="2" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <path d="M10 48 Q18 60 30 60 L50 60 Q62 60 70 48" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+            <div class="product-tag">Premium</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Classic Wrist Watch</h3>
+            <div class="product-price">₦185,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg,#1A1A2E,#C8893A);" data-color="Black & Gold" title="Black & Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#C0C0C0,#E8E8E8);" data-color="Silver" title="Silver"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#3E2723,#B8860B);" data-color="Brown & Gold" title="Brown & Gold"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="38mm">38mm</button>
+                <button class="size-pill" data-size="42mm">42mm</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="19" data-name="Classic Wrist Watch" data-price="185000" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="20">
+          <div class="product-image" style="background: linear-gradient(135deg, #0A2744 0%, #1565C0 40%, #00BCD4 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="18" y="20" width="44" height="30" rx="6" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <rect x="22" y="24" width="36" height="22" rx="4" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.20)" stroke-width="1"/>
+              <text x="40" y="39" text-anchor="middle" font-family="system-ui" font-size="10" fill="rgba(255,255,255,0.70)">12:45</text>
+              <rect x="10" y="32" width="8" height="14" rx="2" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <rect x="62" y="32" width="8" height="14" rx="2" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <path d="M10 50 Q18 62 30 62 L50 62 Q62 62 70 50" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <circle cx="58" cy="30" r="4" fill="rgba(0,188,212,0.60)" stroke="rgba(255,255,255,0.50)" stroke-width="1"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+            <div class="product-tag">Smart</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Smart Watch Pro</h3>
+            <div class="product-price">₦320,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg,#0A2744,#00BCD4);" data-color="Midnight Blue" title="Midnight Blue"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#1A1A1A,#333);" data-color="Space Black" title="Space Black"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#E8E8E8,#C0C0C0);" data-color="Starlight" title="Starlight"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="41mm">41mm</button>
+                <button class="size-pill" data-size="45mm">45mm</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="20" data-name="Smart Watch Pro" data-price="320000" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="21">
+          <div class="product-image" style="background: linear-gradient(135deg, #4A148C 0%, #880E4F 50%, #B8860B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="26" cy="40" r="14" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <circle cx="54" cy="40" r="14" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <circle cx="26" cy="40" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <circle cx="54" cy="40" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <line x1="26" y1="26" x2="26" y2="18" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <line x1="54" y1="26" x2="54" y2="18" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Crystal Hoop Earrings</h3>
+            <div class="product-price">₦22,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background: linear-gradient(135deg,#4A148C,#880E4F);" data-color="Purple & Pink" title="Purple & Pink"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#B8860B,#FFD700);" data-color="Gold" title="Gold"></button>
+              <button class="color-swatch" style="background: linear-gradient(135deg,#C0C0C0,#E8E8E8);" data-color="Silver" title="Silver"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="Small">Small</button>
+                <button class="size-pill" data-size="Large">Large</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="21" data-name="Crystal Hoop Earrings" data-price="22000" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="22">
+          <div class="product-image" style="background: linear-gradient(135deg, #006064 0%, #00BCD4 50%, #B8860B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="28" height="18" rx="8" fill="none" stroke="rgba(255,255,255,0.50)" stroke-width="2"/>
+              <rect x="44" y="8" width="28" height="18" rx="8" fill="none" stroke="rgba(255,255,255,0.50)" stroke-width="2"/>
+              <circle cx="22" cy="17" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <circle cx="58" cy="17" r="5" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
+              <rect x="36" y="13" width="8" height="8" rx="2" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <path d="M10 54 Q18 40 30 40 L50 40 Q62 40 70 54" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+              <circle cx="40" cy="60" r="6" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Sunglasses – Retro Frame</h3>
+            <div class="product-price">₦45,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1A1A1A;" data-color="Matte Black" title="Matte Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#3E2723,#8D6E63);" data-color="Tortoise" title="Tortoise"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#B8860B,#FFD700);" data-color="Gold Frame" title="Gold Frame"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills"><button class="size-pill" data-size="One Size">One Size</button></div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="22" data-name="Sunglasses – Retro Frame" data-price="45000" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="jewellery" data-id="23">
+          <div class="product-image" style="background: linear-gradient(135deg, #37474F 0%, #B0BEC5 50%, #607D8B 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="12" width="24" height="16" rx="7" fill="none" stroke="rgba(255,255,255,0.50)" stroke-width="2"/>
+              <rect x="44" y="12" width="24" height="16" rx="7" fill="none" stroke="rgba(255,255,255,0.50)" stroke-width="2"/>
+              <line x1="36" y1="20" x2="44" y2="20" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <path d="M6 20 L12 20" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+              <path d="M68 20 L74 20" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+              <circle cx="24" cy="20" r="4" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <circle cx="56" cy="20" r="4" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-jwl">Jewellery</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Aviator Glasses</h3>
+            <div class="product-price">₦38,500</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#B8860B,#DAA520);" data-color="Gold" title="Gold"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#C0C0C0,#E8E8E8);" data-color="Silver" title="Silver"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills"><button class="size-pill" data-size="One Size">One Size</button></div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="23" data-name="Aviator Glasses" data-price="38500" data-category="jewellery">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- KITCHEN UTENSILS -->
+        <article class="product-card" data-category="kitchen" data-id="24">
+          <div class="product-image" style="background: linear-gradient(135deg, #BF360C 0%, #E64A19 50%, #FF8A65 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="30" cy="38" rx="18" ry="14" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <rect x="48" y="34" width="24" height="8" rx="3" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <ellipse cx="30" cy="38" rx="10" ry="7" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+              <rect x="26" y="52" width="8" height="14" rx="3" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-kitch">Kitchen</span>
+            <div class="product-tag">New</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Non-Stick Frying Pan</h3>
+            <div class="product-price">₦28,500</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:#BF360C;" data-color="Red" title="Red"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="24cm">24cm</button>
+                <button class="size-pill" data-size="28cm">28cm</button>
+                <button class="size-pill" data-size="32cm">32cm</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="24" data-name="Non-Stick Frying Pan" data-price="28500" data-category="kitchen">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="kitchen" data-id="25">
+          <div class="product-image" style="background: linear-gradient(135deg, #33691E 0%, #558B2F 50%, #8BC34A 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="20" y="25" width="40" height="35" rx="4" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <path d="M30 25 L30 18" stroke="rgba(255,255,255,0.50)" stroke-width="2" stroke-linecap="round"/>
+              <path d="M50 25 L50 18" stroke="rgba(255,255,255,0.50)" stroke-width="2" stroke-linecap="round"/>
+              <ellipse cx="40" cy="60" rx="16" ry="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+              <rect x="28" y="38" width="24" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="28" y="46" width="24" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+            </svg>
+            <span class="product-badge badge-kitch">Kitchen</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Ceramic Cooking Pot Set</h3>
+            <div class="product-price">₦65,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#33691E;" data-color="Forest Green" title="Forest Green"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#E8E8E8,#C0C0C0);" data-color="Cream White" title="Cream White"></button>
+              <button class="color-swatch" style="background:#0D47A1;" data-color="Navy Blue" title="Navy Blue"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="3-Piece">3-Piece</button>
+                <button class="size-pill" data-size="5-Piece">5-Piece</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="25" data-name="Ceramic Cooking Pot Set" data-price="65000" data-category="kitchen">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="kitchen" data-id="26">
+          <div class="product-image" style="background: linear-gradient(135deg, #4E342E 0%, #8D6E63 50%, #D7CCC8 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="16" y="40" width="48" height="6" rx="2" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <rect x="28" y="16" width="6" height="24" rx="2" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <rect x="42" y="16" width="6" height="24" rx="2" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <rect x="20" y="46" width="40" height="16" rx="3" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-kitch">Kitchen</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Wooden Cutlery Set</h3>
+            <div class="product-price">₦12,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#4E342E,#8D6E63);" data-color="Natural Wood" title="Natural Wood"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#1A1A1A,#333);" data-color="Ebony" title="Ebony"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="6-Piece">6-Piece</button>
+                <button class="size-pill" data-size="12-Piece">12-Piece</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="26" data-name="Wooden Cutlery Set" data-price="12000" data-category="kitchen">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="kitchen" data-id="27">
+          <div class="product-image" style="background: linear-gradient(135deg, #006064 0%, #00838F 50%, #4DD0E1 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="22" y="20" width="36" height="42" rx="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <ellipse cx="40" cy="20" rx="10" ry="4" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <rect x="32" y="30" width="16" height="2" rx="1" fill="rgba(255,255,255,0.30)"/>
+              <rect x="30" y="38" width="20" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              <rect x="32" y="46" width="16" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="38" y="10" width="4" height="10" rx="2" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.40)" stroke-width="1"/>
+            </svg>
+            <span class="product-badge badge-kitch">Kitchen</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Insulated Water Bottle</h3>
+            <div class="product-price">₦15,500</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#006064;" data-color="Teal" title="Teal"></button>
+              <button class="color-swatch" style="background:#1A1A1A;" data-color="Matte Black" title="Matte Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#E8E8E8,#C0C0C0);" data-color="Silver" title="Silver"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="500ml">500ml</button>
+                <button class="size-pill" data-size="750ml">750ml</button>
+                <button class="size-pill" data-size="1L">1L</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="27" data-name="Insulated Water Bottle" data-price="15500" data-category="kitchen">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="kitchen" data-id="28">
+          <div class="product-image" style="background: linear-gradient(135deg, #1A237E 0%, #283593 50%, #5C6BC0 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="18" y="28" width="44" height="34" rx="4" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.40)" stroke-width="2"/>
+              <ellipse cx="40" cy="28" rx="14" ry="5" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+              <line x1="30" y1="40" x2="50" y2="40" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+              <line x1="30" y1="48" x2="50" y2="48" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+              <line x1="30" y1="56" x2="42" y2="56" stroke="rgba(255,255,255,0.20)" stroke-width="1.5"/>
+              <circle cx="54" cy="20" r="6" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1.5"/>
+            </svg>
+            <span class="product-badge badge-kitch">Kitchen</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Digital Kitchen Scale</h3>
+            <div class="product-price">₦22,000</div>
+            <div class="product-colors">
+              <span class="color-label">Colors:</span>
+              <button class="color-swatch active" style="background:#1A1A1A;" data-color="Black" title="Black"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#E8E8E8,#C0C0C0);" data-color="White" title="White"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills"><button class="size-pill" data-size="One Size">One Size</button></div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="28" data-name="Digital Kitchen Scale" data-price="22000" data-category="kitchen">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- PERFUME -->
+        <article class="product-card" data-category="perfume" data-id="29">
+          <div class="product-image" style="background: linear-gradient(135deg, #6D4C41 0%, #C8893A 50%, #FFD54F 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="30" y="10" width="20" height="8" rx="3" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <rect x="34" y="6" width="12" height="6" rx="2" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1"/>
+              <rect x="22" y="18" width="36" height="54" rx="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <rect x="28" y="28" width="24" height="14" rx="3" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
+              <rect x="28" y="50" width="24" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="28" y="56" width="18" height="2" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-perf">Perfume</span>
+            <div class="product-tag">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Oud Royal Parfum</h3>
+            <div class="product-price">₦98,000</div>
+            <div class="product-colors">
+              <span class="color-label">Scent:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#6D4C41,#C8893A);" data-color="Oud & Amber" title="Oud & Amber"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#880E4F,#FF8A80);" data-color="Rose & Oud" title="Rose & Oud"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="50ml">50ml</button>
+                <button class="size-pill" data-size="100ml">100ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="29" data-name="Oud Royal Parfum" data-price="98000" data-category="perfume">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="perfume" data-id="30">
+          <div class="product-image" style="background: linear-gradient(135deg, #880E4F 0%, #E91E63 45%, #FF8A80 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="32" y="8" width="16" height="8" rx="3" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <rect x="36" y="4" width="8" height="6" rx="2" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1"/>
+              <rect x="24" y="16" width="32" height="58" rx="8" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <rect x="30" y="26" width="20" height="16" rx="3" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
+              <rect x="30" y="52" width="20" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="30" y="58" width="14" height="2" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-perf">Perfume</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Floral Bliss EDP</h3>
+            <div class="product-price">₦62,000</div>
+            <div class="product-colors">
+              <span class="color-label">Scent:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#880E4F,#FF8A80);" data-color="Rose & Peony" title="Rose & Peony"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#7B1FA2,#CE93D8);" data-color="Lavender" title="Lavender"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#F9A825,#FFECB3);" data-color="Jasmine" title="Jasmine"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="30ml">30ml</button>
+                <button class="size-pill" data-size="50ml">50ml</button>
+                <button class="size-pill" data-size="100ml">100ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="30" data-name="Floral Bliss EDP" data-price="62000" data-category="perfume">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="perfume" data-id="31">
+          <div class="product-image" style="background: linear-gradient(135deg, #0D47A1 0%, #1565C0 45%, #42A5F5 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="28" y="10" width="24" height="8" rx="3" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5"/>
+              <rect x="33" y="5" width="14" height="7" rx="2" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.40)" stroke-width="1"/>
+              <rect x="20" y="18" width="40" height="55" rx="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <rect x="27" y="28" width="26" height="14" rx="3" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
+              <rect x="27" y="52" width="26" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="27" y="58" width="18" height="2" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-perf">Perfume</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Aqua Fresh EDT</h3>
+            <div class="product-price">₦48,500</div>
+            <div class="product-colors">
+              <span class="color-label">Scent:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#0D47A1,#42A5F5);" data-color="Ocean Breeze" title="Ocean Breeze"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#1B5E20,#66BB6A);" data-color="Forest Mint" title="Forest Mint"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="50ml">50ml</button>
+                <button class="size-pill" data-size="75ml">75ml</button>
+                <button class="size-pill" data-size="100ml">100ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="31" data-name="Aqua Fresh EDT" data-price="48500" data-category="perfume">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="perfume" data-id="32">
+          <div class="product-image" style="background: linear-gradient(135deg, #1B5E20 0%, #388E3C 45%, #A5D6A7 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="40" cy="22" rx="16" ry="6" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
+              <rect x="24" y="22" width="32" height="50" rx="10" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+              <rect x="30" y="34" width="20" height="12" rx="3" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
+              <rect x="30" y="54" width="20" height="2" rx="1" fill="rgba(255,255,255,0.20)"/>
+              <rect x="30" y="60" width="14" height="2" rx="1" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+            <span class="product-badge badge-perf">Perfume</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">African Musk EDP</h3>
+            <div class="product-price">₦75,000</div>
+            <div class="product-colors">
+              <span class="color-label">Scent:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#1B5E20,#A5D6A7);" data-color="Green Musk" title="Green Musk"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#4E342E,#C8893A);" data-color="Woody Musk" title="Woody Musk"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="50ml">50ml</button>
+                <button class="size-pill" data-size="100ml">100ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="32" data-name="African Musk EDP" data-price="75000" data-category="perfume">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- SKINCARE -->
+        <article class="product-card" data-category="skincare" data-id="33">
+          <div class="product-image" style="background: linear-gradient(135deg, #F3E5AB 0%, #E8C97A 50%, #C8893A 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="40" cy="30" rx="22" ry="26" fill="rgba(100,60,10,0.12)" stroke="rgba(100,60,10,0.40)" stroke-width="2"/>
+              <ellipse cx="40" cy="25" rx="14" ry="8" fill="rgba(100,60,10,0.10)" stroke="rgba(100,60,10,0.30)" stroke-width="1.5"/>
+              <rect x="32" y="54" width="16" height="4" rx="2" fill="rgba(100,60,10,0.18)" stroke="rgba(100,60,10,0.30)" stroke-width="1"/>
+              <rect x="28" y="44" width="24" height="2" rx="1" fill="rgba(100,60,10,0.18)"/>
+              <rect x="30" y="52" width="20" height="2" rx="1" fill="rgba(100,60,10,0.15)"/>
+            </svg>
+            <span class="product-badge badge-skin">Skincare</span>
+            <div class="product-tag">Bestseller</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Shea Butter Glow Cream</h3>
+            <div class="product-price">₦14,500</div>
+            <div class="product-colors">
+              <span class="color-label">Variant:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#F3E5AB,#C8893A);" data-color="Original" title="Original"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#F48FB1,#F3E5AB);" data-color="Rose" title="Rose"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#A5D6A7,#F3E5AB);" data-color="Aloe Vera" title="Aloe Vera"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="150ml">150ml</button>
+                <button class="size-pill" data-size="250ml">250ml</button>
+                <button class="size-pill" data-size="500ml">500ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="33" data-name="Shea Butter Glow Cream" data-price="14500" data-category="skincare">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="skincare" data-id="34">
+          <div class="product-image" style="background: linear-gradient(135deg, #E8F5E9 0%, #A5D6A7 45%, #388E3C 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="26" y="20" width="28" height="52" rx="6" fill="rgba(30,100,30,0.12)" stroke="rgba(30,100,30,0.40)" stroke-width="2"/>
+              <ellipse cx="40" cy="20" rx="10" ry="4" fill="rgba(30,100,30,0.15)" stroke="rgba(30,100,30,0.35)" stroke-width="1.5"/>
+              <rect x="32" y="32" width="16" height="12" rx="3" fill="rgba(30,100,30,0.10)" stroke="rgba(30,100,30,0.25)" stroke-width="1"/>
+              <rect x="32" y="52" width="16" height="2" rx="1" fill="rgba(30,100,30,0.20)"/>
+              <rect x="32" y="58" width="12" height="2" rx="1" fill="rgba(30,100,30,0.15)"/>
+            </svg>
+            <span class="product-badge badge-skin">Skincare</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Aloe Vera Face Serum</h3>
+            <div class="product-price">₦22,000</div>
+            <div class="product-colors">
+              <span class="color-label">Variant:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#A5D6A7,#388E3C);" data-color="Aloe & Cucumber" title="Aloe & Cucumber"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#880E4F,#F48FB1);" data-color="Rose & Vitamin C" title="Rose & Vitamin C"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="30ml">30ml</button>
+                <button class="size-pill" data-size="50ml">50ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="34" data-name="Aloe Vera Face Serum" data-price="22000" data-category="skincare">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="skincare" data-id="35">
+          <div class="product-image" style="background: linear-gradient(135deg, #FFF8E1 0%, #FFE082 45%, #FFB300 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="22" y="16" width="36" height="56" rx="8" fill="rgba(180,120,0,0.12)" stroke="rgba(180,120,0,0.40)" stroke-width="2"/>
+              <rect x="30" y="12" width="20" height="8" rx="4" fill="rgba(180,120,0,0.15)" stroke="rgba(180,120,0,0.35)" stroke-width="1.5"/>
+              <circle cx="40" cy="42" r="12" fill="none" stroke="rgba(180,120,0,0.30)" stroke-width="1.5"/>
+              <circle cx="40" cy="42" r="5" fill="rgba(180,120,0,0.20)" stroke="rgba(180,120,0,0.35)" stroke-width="1"/>
+              <rect x="30" y="62" width="20" height="2" rx="1" fill="rgba(180,120,0,0.20)"/>
+            </svg>
+            <span class="product-badge badge-skin">Skincare</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Turmeric Glow Face Mask</h3>
+            <div class="product-price">₦9,500</div>
+            <div class="product-colors">
+              <span class="color-label">Variant:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#FFE082,#FFB300);" data-color="Turmeric" title="Turmeric"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#1A1A1A,#4A4A4A);" data-color="Charcoal" title="Charcoal"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#F48FB1,#880E4F);" data-color="Rose Clay" title="Rose Clay"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="50g">50g</button>
+                <button class="size-pill" data-size="100g">100g</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="35" data-name="Turmeric Glow Face Mask" data-price="9500" data-category="skincare">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="skincare" data-id="36">
+          <div class="product-image" style="background: linear-gradient(135deg, #FCE4EC 0%, #F48FB1 45%, #E91E63 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="40" cy="48" rx="20" ry="28" fill="rgba(150,10,60,0.10)" stroke="rgba(150,10,60,0.35)" stroke-width="2"/>
+              <ellipse cx="40" cy="30" rx="12" ry="10" fill="rgba(150,10,60,0.08)" stroke="rgba(150,10,60,0.25)" stroke-width="1.5"/>
+              <rect x="34" y="56" width="12" height="3" rx="1.5" fill="rgba(150,10,60,0.18)" stroke="rgba(150,10,60,0.25)" stroke-width="1"/>
+              <rect x="32" y="64" width="16" height="2" rx="1" fill="rgba(150,10,60,0.15)"/>
+              <rect x="34" y="70" width="12" height="2" rx="1" fill="rgba(150,10,60,0.12)"/>
+            </svg>
+            <span class="product-badge badge-skin">Skincare</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Rose Hip Body Lotion</h3>
+            <div class="product-price">₦18,000</div>
+            <div class="product-colors">
+              <span class="color-label">Variant:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#FCE4EC,#E91E63);" data-color="Rose Hip" title="Rose Hip"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#F3E5AB,#C8893A);" data-color="Shea & Cocoa" title="Shea & Cocoa"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#E8F5E9,#388E3C);" data-color="Aloe Vera" title="Aloe Vera"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="200ml">200ml</button>
+                <button class="size-pill" data-size="400ml">400ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="36" data-name="Rose Hip Body Lotion" data-price="18000" data-category="skincare">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="skincare" data-id="37">
+          <div class="product-image" style="background: linear-gradient(135deg, #E3F2FD 0%, #90CAF9 45%, #1565C0 100%);">
+            <div class="product-img-overlay"></div>
+            <svg class="clothing-icon" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="24" y="22" width="32" height="48" rx="6" fill="rgba(10,60,150,0.10)" stroke="rgba(10,60,150,0.38)" stroke-width="2"/>
+              <rect x="30" y="18" width="20" height="8" rx="4" fill="rgba(10,60,150,0.12)" stroke="rgba(10,60,150,0.30)" stroke-width="1.5"/>
+              <circle cx="40" cy="46" r="10" fill="none" stroke="rgba(10,60,150,0.28)" stroke-width="1.5"/>
+              <path d="M34 46 Q37 40 40 46 Q43 52 46 46" fill="none" stroke="rgba(10,60,150,0.38)" stroke-width="1.5"/>
+              <rect x="30" y="62" width="20" height="2" rx="1" fill="rgba(10,60,150,0.18)"/>
+            </svg>
+            <span class="product-badge badge-skin">Skincare</span>
+            <div class="product-tag">New</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">SPF 50 Sunscreen</h3>
+            <div class="product-price">₦16,500</div>
+            <div class="product-colors">
+              <span class="color-label">Variant:</span>
+              <button class="color-swatch active" style="background:linear-gradient(135deg,#90CAF9,#1565C0);" data-color="SPF 50" title="SPF 50"></button>
+              <button class="color-swatch" style="background:linear-gradient(135deg,#FFE082,#FFB300);" data-color="SPF 50+ Tinted" title="SPF 50+ Tinted"></button>
+            </div>
+            <div class="product-sizes"><span class="size-label">Size:</span>
+              <div class="size-pills">
+                <button class="size-pill" data-size="50ml">50ml</button>
+                <button class="size-pill" data-size="100ml">100ml</button>
+              </div>
+              <span class="size-error" style="display:none;">Please select a size</span>
+            </div>
+            <button class="btn-add-cart" data-id="37" data-name="SPF 50 Sunscreen" data-price="16500" data-category="skincare">Add to Cart</button>
+          </div>
+        </article>
+
+      </div><!-- /products-grid -->
+
+      <div class="no-products" id="no-products" style="display:none;">
+        <div class="no-products-icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+            <circle cx="40" cy="40" r="36" fill="#FAF7F2" stroke="#C8893A" stroke-width="2"/>
+            <path d="M25 35 Q40 20 55 35" stroke="#C8893A" stroke-width="2" fill="none"/>
+            <circle cx="30" cy="48" r="4" fill="#C8893A"/>
+            <circle cx="50" cy="48" r="4" fill="#C8893A"/>
+          </svg>
+        </div>
+        <p>No products found in this category.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       ABOUT SECTION
+  ========================================================= -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Decorative left panel -->
+        <div class="about-art" aria-hidden="true">
+          <div class="about-art-inner">
+            <svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg" class="about-svg">
+              <!-- Background panel -->
+              <rect width="300" height="380" fill="#2C1810" rx="16"/>
+              <!-- Kente-style stripes -->
+              <rect x="0" y="0" width="300" height="40" fill="#C8893A" opacity="0.15"/>
+              <rect x="0" y="340" width="300" height="40" fill="#C8893A" opacity="0.15"/>
+              <!-- Central motif -->
+              <polygon points="150,60 200,110 180,170 120,170 100,110" fill="none" stroke="#C8893A" stroke-width="2" opacity="0.6"/>
+              <polygon points="150,80 185,118 170,158 130,158 115,118" fill="none" stroke="#C8893A" stroke-width="1" opacity="0.40"/>
+              <!-- Adinkra Gye Nyame inspired -->
+              <circle cx="150" cy="125" r="22" fill="none" stroke="#C8893A" stroke-width="2" opacity="0.55"/>
+              <circle cx="150" cy="125" r="10" fill="#C8893A" opacity="0.30"/>
+              <line x1="128" y1="125" x2="172" y2="125" stroke="#C8893A" stroke-width="1.5" opacity="0.50"/>
+              <line x1="150" y1="103" x2="150" y2="147" stroke="#C8893A" stroke-width="1.5" opacity="0.50"/>
+              <!-- Side diamonds -->
+              <polygon points="40,180 60,200 40,220 20,200" fill="none" stroke="#C8893A" stroke-width="1.5" opacity="0.50"/>
+              <polygon points="260,180 280,200 260,220 240,200" fill="none" stroke="#C8893A" stroke-width="1.5" opacity="0.50"/>
+              <!-- Text area lines -->
+              <rect x="50" y="210" width="200" height="3" rx="1.5" fill="#C8893A" opacity="0.25"/>
+              <rect x="70" y="225" width="160" height="2" rx="1" fill="#C8893A" opacity="0.18"/>
+              <rect x="60" y="238" width="180" height="2" rx="1" fill="#C8893A" opacity="0.18"/>
+              <rect x="80" y="251" width="140" height="2" rx="1" fill="#C8893A" opacity="0.15"/>
+              <!-- Bottom zigzag -->
+              <polyline points="0,300 20,285 40,300 60,285 80,300 100,285 120,300 140,285 160,300 180,285 200,300 220,285 240,300 260,285 280,300 300,285" fill="none" stroke="#C8893A" stroke-width="1.5" opacity="0.30"/>
+              <!-- Corner accents -->
+              <rect x="0" y="0" width="20" height="5" fill="#C8893A" opacity="0.4"/>
+              <rect x="0" y="0" width="5" height="20" fill="#C8893A" opacity="0.4"/>
+              <rect x="280" y="0" width="20" height="5" fill="#C8893A" opacity="0.4"/>
+              <rect x="295" y="0" width="5" height="20" fill="#C8893A" opacity="0.4"/>
+              <rect x="0" y="375" width="20" height="5" fill="#C8893A" opacity="0.4"/>
+              <rect x="0" y="360" width="5" height="20" fill="#C8893A" opacity="0.4"/>
+              <rect x="280" y="375" width="20" height="5" fill="#C8893A" opacity="0.4"/>
+              <rect x="295" y="360" width="5" height="20" fill="#C8893A" opacity="0.4"/>
+              <!-- Brand initials -->
+              <text x="150" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#C8893A" opacity="0.60" letter-spacing="6">BY</text>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Text content -->
+        <div class="about-content">
+          <div class="about-eyebrow">Our Story</div>
+          <h2 class="about-title">Rooted in Culture,<br/>Dressed for the World</h2>
+          <p class="about-body">BabbanYaya was born from a profound love of African artistry and a desire to bring its beauty to a global stage. Each piece we create is more than clothing — it is a story woven in thread, a dialogue between generations, a celebration of a continent whose creativity knows no bounds.</p>
+          <p class="about-body">We partner directly with master artisans across Nigeria, Ghana, Senegal, and Côte d'Ivoire, ensuring fair wages, sustainable practices, and the preservation of centuries-old textile traditions. From the vibrant wax prints of Ankara to the regal stripes of Kente, every pattern carries meaning.</p>
+
+          <div class="about-stats">
+            <div class="stat-box">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Unique Designs</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">10K+</div>
+              <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">15</div>
+              <div class="stat-label">Countries Served</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       TESTIMONIALS
+  ========================================================= -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-sub">Real stories from people who wear their heritage</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote class="testimonial-quote">"The Ankara Wrap Dress I ordered is absolutely stunning — the colors are even more vibrant in person. I wore it to my cousin's wedding and couldn't stop receiving compliments. This is genuine quality at an honest price."</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar" style="background: linear-gradient(135deg, #C8893A, #2C1810);">AA</div>
+            <div class="author-info">
+              <div class="author-name">Adaeze Adeyemi</div>
+              <div class="author-loc">Lagos, Nigeria</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote class="testimonial-quote">"I've been searching for years for authentic African fashion that ships to the UK with reliable quality. BabbanYaya Store is the real deal. My Agbada Senator Set arrived beautifully packaged and fits perfectly. Will definitely be ordering again."</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar" style="background: linear-gradient(135deg, #1565C0, #00897B);">KO</div>
+            <div class="author-info">
+              <div class="author-name">Kwame Osei-Bonsu</div>
+              <div class="author-loc">London, UK</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote class="testimonial-quote">"Bought the Mini Ankara Dress for my daughter and she refuses to take it off! The fabric quality is wonderful, the print is authentic, and customer service was super responsive when I had questions about sizing. 10/10 brand."</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar" style="background: linear-gradient(135deg, #E67E22, #C0392B);">FD</div>
+            <div class="author-info">
+              <div class="author-name">Fatou Diallo</div>
+              <div class="author-loc">Atlanta, USA</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       NEWSLETTER
+  ========================================================= -->
+  <section class="newsletter-section">
+    <div class="newsletter-inner">
+      <div class="newsletter-decor" aria-hidden="true">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="100,10 130,50 170,50 140,80 155,120 100,95 45,120 60,80 30,50 70,50" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+          <circle cx="100" cy="100" r="60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+        </svg>
+      </div>
+      <div class="newsletter-content">
+        <div class="newsletter-eyebrow">Exclusive Offer</div>
+        <h2 class="newsletter-title">Get 10% Off Your First Order</h2>
+        <p class="newsletter-sub">Join our community of style lovers and be first to discover new collections, artisan stories, and exclusive deals.</p>
+        <form class="newsletter-form" id="newsletter-form" novalidate>
+          <div class="newsletter-input-wrap">
+            <input type="email" class="newsletter-input" id="newsletter-email" placeholder="Enter your email address" required />
+            <button type="submit" class="btn-subscribe">Subscribe</button>
+          </div>
+          <div class="newsletter-success" id="newsletter-success" style="display:none;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            You're in! Check your inbox for your 10% discount code.
+          </div>
+          <div class="newsletter-error" id="newsletter-error" style="display:none;">Please enter a valid email address.</div>
+          <p class="newsletter-privacy">By subscribing, you agree to our <a href="#">Privacy Policy</a>. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-cols">
+
+        <div class="footer-col footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-name">BabbanYaya</span>
+            <span class="footer-logo-sub">Store</span>
+          </div>
+          <p class="footer-tagline">Premium African-inspired fashion, crafted with cultural heritage and delivered worldwide.</p>
+          <div class="footer-trust">
+            <span class="trust-badge">🔒 Secure Checkout</span>
+            <span class="trust-badge">🌍 Worldwide Shipping</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Shop</h4>
+          <ul class="footer-links">
+            <li><a href="#shop" onclick="filterCategory('women')">Women's</a></li>
+            <li><a href="#shop" onclick="filterCategory('men')">Men's</a></li>
+            <li><a href="#shop" onclick="filterCategory('kids')">Kids'</a></li>
+            <li><a href="#shop" onclick="filterCategory('casual')">Casual Wear</a></li>
+            <li><a href="#shop" onclick="filterCategory('corporate')">Corporate Wear</a></li>
+            <li><a href="#shop" onclick="filterCategory('footwear')">Footwear</a></li>
+            <li><a href="#shop" onclick="filterCategory('accessories')">Accessories</a></li>
+            <li><a href="#shop" onclick="filterCategory('jewellery')">Jewellery</a></li>
+            <li><a href="#shop" onclick="filterCategory('kitchen')">Kitchen</a></li>
+            <li><a href="#shop" onclick="filterCategory('perfume')">Perfume</a></li>
+            <li><a href="#shop" onclick="filterCategory('skincare')">Skincare</a></li>
+            <li><a href="#shop">New Arrivals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Help</h4>
+          <ul class="footer-links">
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Follow Us</h4>
+          <div class="social-links">
+            <!-- Facebook -->
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </a>
+            <!-- Instagram -->
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </a>
+            <!-- X / Twitter -->
+            <a href="#" class="social-link" aria-label="Twitter/X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              Twitter/X
+            </a>
+            <!-- WhatsApp -->
+            <a href="#" class="social-link" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+          <div class="footer-payment">
+            <p class="payment-label">We accept</p>
+            <div class="payment-icons">
+              <span class="payment-icon">💳 Visa</span>
+              <span class="payment-icon">💳 Mastercard</span>
+              <span class="payment-icon">💳 PayPal</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 BabbanYaya Store. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       CART SIDEBAR
+  ========================================================= -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" aria-label="Shopping cart">
+    <div class="cart-header">
+      <h2 class="cart-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Your Cart
+      </h2>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="cart-empty" id="cart-empty">
+      <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+        <circle cx="60" cy="60" r="55" fill="#FAF7F2" stroke="#C8893A" stroke-width="2"/>
+        <path d="M35 45 L30 35 L22 35" stroke="#C8893A" stroke-width="2" stroke-linecap="round"/>
+        <path d="M35 45 L42 72 L82 72 L88 45 Z" fill="none" stroke="#C8893A" stroke-width="2" stroke-linejoin="round"/>
+        <circle cx="50" cy="82" r="5" fill="#C8893A" opacity="0.4"/>
+        <circle cx="72" cy="82" r="5" fill="#C8893A" opacity="0.4"/>
+        <line x1="52" y1="52" x2="72" y2="52" stroke="#C8893A" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <h3>Your cart is empty</h3>
+      <p>Add some beautiful pieces to get started.</p>
+      <button class="btn-continue-shop" id="btn-continue-shop">Continue Shopping</button>
+    </div>
+
+    <div class="cart-items-list" id="cart-items-list"></div>
+
+    <div class="cart-footer" id="cart-footer" style="display:none;">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span class="subtotal-amount" id="subtotal-amount">₦0.00</span>
+      </div>
+      <div class="cart-shipping-note">Free shipping on orders over ₦150,000</div>
+      <button class="btn-checkout">
+        Checkout
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </button>
+      <button class="btn-clear-cart" id="btn-clear-cart">Clear Cart</button>
+    </div>
+  </aside>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+
+  <!-- CreateOS Badge -->
+  <style>
+    #createos-badge {
+      position: fixed;
+      bottom: 12px;
+      right: 12px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 999px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+      font-size: 11px;
+      font-weight: 500;
+      color: #374151;
+      text-decoration: none;
+      font-family: system-ui, sans-serif;
+    }
+    #createos-badge:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    #createos-badge img { width: 14px; height: 14px; }
+  </style>
+  <a id="createos-badge" href="https://createos.sh/" target="_blank" rel="noopener noreferrer">
+    <img src="https://nodeops.network/SymbolBlack.svg" alt="" />
+    Built with CreateOS
+  </a>
+
+</body>
+</html>
